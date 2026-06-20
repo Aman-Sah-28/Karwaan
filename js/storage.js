@@ -1,4 +1,4 @@
-// ================= GEOLOCATION =================
+
 
 const locationBtn =
 document.getElementById("locationBtn");
@@ -45,7 +45,7 @@ locationResult.innerHTML =
 
 
 
-// ================= COOKIES =================
+
 
 function setCookie(name,value,days){
 
