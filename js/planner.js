@@ -24,7 +24,7 @@ const travelers =
 document.getElementById("travelers").value;
 
 
-// Validation
+
 
 if(
 name === "" ||
@@ -50,7 +50,7 @@ return;
 }
 
 
-// Session Storage
+
 
 const tripData = {
 
@@ -68,7 +68,7 @@ JSON.stringify(tripData)
 );
 
 
-// Display
+
 
 tripOutput.innerHTML = `
 
