@@ -1,4 +1,4 @@
-// ================= MOBILE MENU =================
+
 
 const menuBtn = document.getElementById("menu-btn");
 const mobileMenu = document.getElementById("mobile-menu");
@@ -8,7 +8,7 @@ menuBtn.addEventListener("click", () => {
 });
 
 
-// ================= DESTINATION DATABASE =================
+
 
 const destinations = [
 
@@ -63,7 +63,7 @@ const destinations = [
 ];
 
 
-// ================= CREATE CARDS =================
+
 
 const container = document.getElementById("destination-container");
 
@@ -114,7 +114,7 @@ container.innerHTML += `
 });
 
 
-// ================= MODAL =================
+
 
 const modal = document.getElementById("destinationModal");
 
@@ -165,7 +165,7 @@ modal.classList.add("hidden");
 
 
 
-// ================= CAROUSEL =================
+
 
 const carouselData = [
 
@@ -254,7 +254,7 @@ updateCarousel();
 });
 
 
-// ================= MOOD RECOMMENDER =================
+
 
 const recommendation =
 document.getElementById("recommendation");
@@ -300,7 +300,7 @@ recommendation.innerHTML =
 });
 
 
-// ================= FAVORITES =================
+
 
 const favoritesContainer =
 document.getElementById("favorites-container");
@@ -368,7 +368,7 @@ alert("Added to Favorites ❤️");
 
 
 
-// ================= STORY WALL =================
+
 
 const postStory =
 document.getElementById("postStory");
@@ -419,7 +419,7 @@ document.getElementById("storyText").value = "";
 
 
 
-// ================= CANVAS API =================
+
 
 const canvas =
 document.getElementById("passportCanvas");
@@ -478,7 +478,7 @@ ctx.fillText(
 
 
 
-// ================= DRAG & DROP =================
+
 
 const dragItems =
 document.querySelectorAll(".drag-item");
@@ -540,7 +540,7 @@ dragged.cloneNode(true)
 
 
 
-    // ================= CLIPBOARD API =================
+
 
 document.getElementById("copyItinerary")
 .addEventListener("click", async () => {
@@ -569,7 +569,7 @@ alert(
 
 
 
-// ================= FULLSCREEN API =================
+
 
 document.getElementById("fullscreenBtn")
 .addEventListener("click", () => {
@@ -586,7 +586,7 @@ image.requestFullscreen();
 });
 
 
-// ================= WEB SHARE API =================
+
 
 document.getElementById("shareBtn")
 .addEventListener("click", async () => {
@@ -618,7 +618,7 @@ alert(
 
 
 
-// ================= CONTACT FORM =================
+
 
 const contactForm =
 document.getElementById("contactForm");
