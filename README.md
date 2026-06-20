@@ -1,7 +1,5 @@
 # Karwaan – Every Journey Has a Story
 
-# Deployment Link: https://aman-sah-28.github.io/Karwaan/
-
 ## Project Overview
 
 Karwaan is a responsive tourism web application designed to help travelers discover destinations, plan journeys, share travel experiences, and utilize smart travel tools. The project was developed as part of the Full Stack Development (MCA413-1) CIA Assessment.
@@ -122,6 +120,8 @@ Aman Sah
 MCA-A - Christ (Deemed to be University)
 Course: Full Stack Development (MCA413-1)
 
+
+# Deployment Link: https://aman-sah-28.github.io/Karwaan/
 
 
 Karwaan/
