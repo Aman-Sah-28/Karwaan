@@ -1,4 +1,4 @@
-// ================= WEATHER API =================
+
 
 const weatherBtn =
 document.getElementById("weatherBtn");
